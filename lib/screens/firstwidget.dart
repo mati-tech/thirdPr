@@ -8,7 +8,7 @@ class firstWidget extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text("This is First Widget", style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold)),
+        Text("This is First  Widget", style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold)),
         SizedBox(height: 20),
         Text("I am  a column widget", style: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.grey)),
         SizedBox(height: 20),
