@@ -12,7 +12,7 @@ class firstWidget extends StatelessWidget {
         SizedBox(height: 20),
         Text("I am  a column widget", style: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.grey)),
         SizedBox(height: 20),
-        Text("We are placed on the top of each other", style: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.grey)),
+        Text("We are placed   on the top of each other", style: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.grey)),
         SizedBox(height: 20),
         ElevatedButton(
           onPressed: () {},
