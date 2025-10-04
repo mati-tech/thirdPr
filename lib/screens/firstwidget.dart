@@ -10,7 +10,7 @@ class firstWidget extends StatelessWidget {
       children: [
         Text("This is First Widget", style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold)),
         SizedBox(height: 20),
-        Text("I am a column widget", style: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.grey)),
+        Text("I am  a column widget", style: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.grey)),
         SizedBox(height: 20),
         Text("We are placed on the top of each other", style: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.grey)),
         SizedBox(height: 20),
