@@ -52,7 +52,7 @@ class _ContentManagerState extends State<ContentManager> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: nextWidget,
-        tooltip: 'Next Widget',
+        tooltip: 'Next Widget ',
         backgroundColor: Colors.red,
 
         child: Icon(Icons.navigate_next, color: Colors.white,),
