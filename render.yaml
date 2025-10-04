@@ -3,15 +3,12 @@ services:
     name: flutter-web
     env: static
     buildCommand: |
-      set -e
-      # download Flutter only if not cached
       if [ ! -d "flutter" ]; then
-        echo "Downloading Flutter..."
-        curl -O https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.0-stable.tar.xz
-        tar xf flutter_linux_3.24.0-stable.tar.xz
+        echo "Downloading Flutter 3.35.5..."
+        curl -O https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.35.5-stable.tar.xz
+        tar xf flutter_linux_3.35.5-stable.tar.xz
         mv flutter_linux_* flutter
       fi
-
       export PATH="$PATH:$(pwd)/flutter/bin"
       flutter --version
       flutter config --enable-web
